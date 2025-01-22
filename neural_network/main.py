@@ -5,7 +5,7 @@ import pandas as pd
 import numpy as np
 
 print("Зареждане на данните...")
-data_daily = pd.read_csv('Daily_Electricity_Consumption_Data.csv')
+data_daily = pd.read_csv('./data/Daily_Electricity_Consumption_Data.csv')
 data_daily['Date'] = pd.to_datetime(data_daily['Date'])
 
 print("Нормализация на данните...")
